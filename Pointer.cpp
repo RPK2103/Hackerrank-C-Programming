@@ -6,7 +6,6 @@ void update(int *a,int *b) {
     *b= (*a) - 2*(*b);
     *b= abs (*b);
 }
-
 int main() {
     int a, b;
     int *pa = &a, *pb = &b;
