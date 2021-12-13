@@ -68,7 +68,6 @@ int main(){
         if(val == 1){
             // If val is 1 current object is of type Professor
             per[i] = new Professor;
-
         }
         else per[i] = new Student; // Else the current object is of type Student
 
